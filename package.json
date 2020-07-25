@@ -1,18 +1,14 @@
 {
   "name": "invite-me",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node app.js"
   },
   "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
     "dotenv": "^8.2.0",
     "express": "~4.16.1",
-    "http-errors": "~1.6.3",
-    "morgan": "~1.9.1",
-    "pug": "^2.0.4"
+    "morgan": "~1.9.1"
   },
   "description": "App for creating events and managing invitations",
   "main": "app.js",
@@ -29,7 +25,7 @@
     "manage",
     "managing"
   ],
-  "author": "Graham Vasquez, Eric O'Dell, Tim Unger",
+  "author": "Graham Vasquez, Eric O'Dell",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/GV14982/invite-me/issues"
